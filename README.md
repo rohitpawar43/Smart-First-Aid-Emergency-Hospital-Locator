@@ -38,7 +38,7 @@ This project enhances healthcare accessibility and helps users respond **promptl
 
 
 
-## Features / Activities
+## Features
 
 - Real-time hospital locator using **Google Maps API**  
 - Symptom-based emergency guidance  
@@ -53,39 +53,67 @@ This project enhances healthcare accessibility and helps users respond **promptl
 
 - **Frontend:** React.js & CSS
 - **Backend:** Node.js & Express.js   
-- **Database:** Firebase / MongoDB  
+- **Database:** MongoDB  
 - **APIs:** Google Maps API    
 
 
 ------
 
-## Screenshots
+## Screenshots & Features
 
 ### Home Page  
-![Home Page](Home_page.png)  
+  
+**Functionality:**  
+- The landing page of the app.  
+- Provides quick access to major features like hospital locator, doctor directory, and first aid guidelines.  
+- Clean and user-friendly interface for easy navigation.
+  
+![Home Page](Home_page.png)
 
 ---
 
 ### Symptom Emergency Guidelines  
-![Symptom Emergency Guidelines](Symptom_Emergency_Gidelines.png)  
+  
+**Functionality:**  
+- Users can check emergency guidelines based on symptoms.  
+- Provides step-by-step first aid instructions for immediate action.  
+- Helps in quick decision-making during emergencies.
+
+ ![Symptom Emergency Guidelines](Symptom_Emergency_Gidelines.png)
 
 ---
 
 ### Doctors Directory  
-![Doctors Directory](Doctors.png)  
+  
+**Functionality:**  
+- Lists doctors with their specialization and contact details.  
+- Users can search for doctors in their area.  
+- Helps users connect with medical professionals quickly.
+
+ ![Doctors Directory](Doctors.png)
 
 ---
 
 ### Hospital Locator  
-![Hospital Locator](Hospital_locator.jpg)  
+  
+**Functionality:**  
+- Displays nearby hospitals on a map using Google Maps API.  
+- Shows real-time distance from user’s current location.  
+- Users can click on hospitals to get more details or directions.
+
+![Hospital Locator](Hospital_locator.jpg)
 
 ---
-
 
 ### Emergency Guide  
-![Emergency Guide](Emergency_Guide.png)  
+  
+**Functionality:**  
+- Provides general emergency tips and first aid guidance.  
+- Includes instructions for common emergencies like bleeding, burns, or accidents.  
+- Aims to assist users before professional help arrives.
 
----
+ ![Emergency Guide](Emergency_Guide.png)
+
 
 
 ## Running Tests
@@ -95,5 +123,6 @@ To run tests, run the following command
 ```bash
   npm run dev
 ```
+
 
 
