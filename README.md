@@ -2,9 +2,7 @@
 Marathwada mitra mandal's institute of technology lohgaon pune
 SE AIDS Department students
 
-Title : 
-
-Smart First Aid and Emergency Hospital locator
+## Title : Smart First Aid and Emergency Hospital locator
 
 Developed by :
 
