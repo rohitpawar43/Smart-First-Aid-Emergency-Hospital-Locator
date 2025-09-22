@@ -8,7 +8,7 @@ import d4 from '../pages/images/Doctor_4.jpg'
 import d5 from '../pages/images/Doctor_5.jpg'
 import d6 from '../pages/images/Doctor_6.jpg'
 
-import './DoctorDirectory.css'; // import CSS
+import './DoctorDirectory.css'; 
 
 const doctors = [
   {
