@@ -118,11 +118,19 @@ This project enhances healthcare accessibility and helps users respond **promptl
 
 ## Running Tests
 
+To install node modules and vite, run the following commands
+
+```bash
+  npm install
+  npm install vite
+```
+
 To run tests, run the following command
 
 ```bash
   npm run dev
 ```
+
 
 
 
