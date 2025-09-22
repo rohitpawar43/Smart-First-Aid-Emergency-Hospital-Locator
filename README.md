@@ -13,3 +13,8 @@ Developed by :
     3.Payal Karvande
     4.Pratiksha Raskar
 
+
+## Author
+
+- [@rohitpawar43](https://github.com/rohitpawar43)
+
