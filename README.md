@@ -51,8 +51,8 @@ This project enhances healthcare accessibility and helps users respond **promptl
 
 ## Tech Stack
 
-- **Frontend:** React.js  
-- **Backend:** Node.js & Express.js (if applicable)  
+- **Frontend:** React.js & CSS
+- **Backend:** Node.js & Express.js   
 - **Database:** Firebase / MongoDB  
 - **APIs:** Google Maps API    
 
@@ -95,4 +95,5 @@ To run tests, run the following command
 ```bash
   npm run dev
 ```
+
 
