@@ -16,3 +16,8 @@ Developed by :
 
 - [@rohitpawar43](https://github.com/rohitpawar43)
 
+## Emergency guid : 
+
+![Emergency guid](Emergency_Guide.png)
+
+
