@@ -1,0 +1,58 @@
+/* Full-width container */
+.hospital-container {
+  width: 100%;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+/* Title */
+.hospital-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1e3a8a; /* deep blue */
+  margin-bottom: 1rem;
+}
+
+/* Error */
+.hospital-error {
+  color: #dc2626;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+/* Map takes full width */
+.hospital-map {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 1rem;
+}
+
+/* Loading text */
+.hospital-loading {
+  color: #6b7280;
+  font-size: 1rem;
+  margin-top: 200px;
+}
+
+/* Button */
+.hospital-btn {
+  background: #16a34a;
+  color: #ffffff;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.hospital-btn:hover:enabled {
+  background: #15803d;
+  transform: translateY(-2px);
+}
+
+.hospital-btn:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+}

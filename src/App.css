@@ -1,0 +1,16 @@
+/* Full app container */
+.app-container {
+  min-height: 100vh;
+  background: #f9fafb; /* light gray */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main content */
+.app-main {
+  flex: 1;
+  width: 100%;
+  max-width: 1280px; /* same as max-w-7xl */
+  margin: 0 auto;
+  padding: 2rem 1rem; /* px-4 py-8 */
+}

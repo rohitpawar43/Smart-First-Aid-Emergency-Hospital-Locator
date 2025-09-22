@@ -1,0 +1,104 @@
+.symptom-container {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.symptom-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1d4ed8; /* blue */
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.icon-warning {
+  color: #f59e0b; /* yellow */
+}
+
+.symptom-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.symptom-btn {
+  width: 100%;
+  padding: 0.7rem 1rem;
+  background: #dbeafe; /* light blue */
+  color: #1d4ed8;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.symptom-btn:hover {
+  background: #bfdbfe;
+}
+
+.icon-btn {
+  width: 18px;
+  height: 18px;
+}
+
+.symptom-box {
+  padding: 1.5rem;
+  background: #f9fafb; /* light gray */
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+.symptom-subtitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #374151;
+}
+
+.icon-info {
+  color: #374151;
+}
+
+.symptom-list {
+  list-style: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+  color: #374151;
+}
+
+.symptom-list li {
+  margin-bottom: 0.5rem;
+}
+
+.close-btn {
+  background: #dc2626;
+  color: #ffffff;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  width: 100%;
+  max-width: 200px;
+}
+
+.close-btn:hover {
+  background: #b91c1c;
+}

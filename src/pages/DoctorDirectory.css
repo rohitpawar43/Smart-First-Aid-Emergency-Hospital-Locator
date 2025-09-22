@@ -1,0 +1,123 @@
+/* Container */
+.doctor-directory {
+  max-width: 72rem; /* Tailwind max-w-6xl */
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Title */
+.title {
+  font-size: 1.875rem; /* text-3xl */
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+/* Search box */
+.search-box {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.search-icon {
+  position: absolute;
+  left: 0.75rem;
+  top: 0.75rem;
+  color: #9ca3af; /* gray-400 */
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.5rem 1rem 0.5rem 2.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  outline: none;
+  font-size: 1rem;
+}
+
+.search-input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px #2563eb44; /* focus:ring-blue-500 */
+}
+
+/* Grid */
+.doctor-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .doctor-grid {
+    grid-template-columns: repeat(2, 1fr); /* md:grid-cols-2 */
+  }
+}
+
+/* Doctor card */
+.doctor-card {
+  background: #fff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.doctor-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.doctor-card-flex {
+  display: flex;
+}
+
+/* Doctor image */
+.doctor-image {
+  width: 8rem;   /* w-32 */
+  height: 8rem;  /* h-32 */
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+/* Doctor info */
+.doctor-info {
+  padding: 1rem;
+  flex: 1;
+}
+
+.doctor-name {
+  font-weight: 600;
+  font-size: 1.125rem; /* text-lg */
+  margin: 0;
+}
+
+.doctor-qual {
+  font-size: 0.875rem;
+  color: #4b5563; /* gray-600 */
+}
+
+.doctor-specialty {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #4b5563;
+}
+
+.doctor-problems {
+  font-size: 0.875rem;
+  color: #4b5563;
+}
+
+/* Contact and Availability */
+.doctor-contact,
+.doctor-availability {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  font-size: 0.875rem;
+  color: #4b5563;
+}
+
+.icon-sm {
+  width: 1rem;  /* h-4 */
+  height: 1rem; /* w-4 */
+  margin-right: 0.5rem;
+  flex-shrink: 0;
+}

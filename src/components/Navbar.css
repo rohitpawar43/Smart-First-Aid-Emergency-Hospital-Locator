@@ -1,0 +1,97 @@
+/* --- Navbar Professional Style --- */
+.navbar {
+  background: linear-gradient(90deg, #1e3a8a, #1e40af); /* navy → deep blue */
+  color: #ffffff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.navbar-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4.25rem;
+}
+
+/* --- Brand --- */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.brand-title {
+  font-weight: 700;
+  font-size: 1.25rem;
+  letter-spacing: 0.3px;
+  color: #f9fafb;
+}
+
+/* --- Links --- */
+.navbar-links {
+  display: none;
+  gap: 1.75rem;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .navbar-links {
+    display: flex;
+  }
+}
+
+.navbar-link {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  text-decoration: none;
+  color: #e5e7eb; /* light gray */
+  position: relative;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.navbar-link:hover {
+  color: #ffffff;
+}
+
+/* Underline effect (thin + subtle) */
+.navbar-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background: #38bdf8; /* professional cyan accent */
+  transition: width 0.25s ease-in-out;
+}
+
+.navbar-link:hover::after {
+  width: 100%;
+}
+
+/* --- Icons --- */
+.icon-lg {
+  width: 1.8rem;
+  height: 1.8rem;
+  color: #38bdf8; /* cyan accent */
+}
+
+.icon-sm {
+  width: 1.1rem;
+  height: 1.1rem;
+  color: #cbd5e1; /* muted gray */
+  flex-shrink: 0;
+}
