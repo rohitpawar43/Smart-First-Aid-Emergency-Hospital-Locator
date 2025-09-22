@@ -8,7 +8,7 @@ const Home = () => {
     <div className="home-container">
       <div className="home-wrapper">
 
-        {/* App Name / Hero Text */}
+        
         <section className="hero-section">
           <h1>
             <span className="highlight">Smart First Aid</span> & <br />
@@ -20,7 +20,6 @@ const Home = () => {
           </p>
         </section>
 
-        {/* Feature Cards */}
         <div className="feature-grid">
           <Link to="/symptoms" className="feature-link">
             <div className="feature-card">
@@ -63,7 +62,7 @@ const Home = () => {
           </Link>
         </div>
 
-        {/* Emergency Numbers */}
+        
         <section className="emergency-numbers">
           <h2>🚨 Emergency Numbers</h2>
           <div className="numbers-grid">
