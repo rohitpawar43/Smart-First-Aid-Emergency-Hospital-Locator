@@ -6,7 +6,7 @@ import SymptomChecker from "./pages/SymptomChecker";
 import HospitalFinder from "./pages/HospitalFinder";
 import DoctorDirectory from "./pages/DoctorDirectory";
 import EmergencyGuide from "./pages/EmergencyGuide";
-import Footer from "./components/Footer"; // corrected path
+import Footer from "./components/Footer"; 
 import "./App.css";
 
 function App() {
