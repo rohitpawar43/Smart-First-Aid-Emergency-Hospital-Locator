@@ -1,6 +1,6 @@
 # Smart First Aid & Emergency Hospital Locator 🏥🩺
 
-**Developed By:** SE AIDS Department, Marathwada Mitra Mandal's Institute of Technology, Lohgaon, Pune  
+**Developed At:** SE AIDS Department, Marathwada Mitra Mandal's Institute of Technology, Lohgaon, Pune  
 
 ---
 
@@ -130,6 +130,7 @@ To run tests, run the following command
 ```bash
   npm run dev
 ```
+
 
 
 
